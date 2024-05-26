@@ -22,7 +22,7 @@ before_script:
 
 tests:
   script:
-    - pytest tests.py
+    - behave
   artifacts:
     paths:
       - build/*
